@@ -2,7 +2,7 @@
 
 Managing your infrastructure with configuration management tools like Chef melds the practices of development and operations together. This workshop will focus on a development practice - Test Driven Development - and how that method can be applied to managing your Rails infrastructure and deployments. You will learn how to: Analyze your application and define your infrastructure needs (databases, load balancers, etc.), define unique infrastructure requirements for Rails applications (i.e. asset pipeline), capture your requirements in tests using Test Kitchen, ServerSpec, and other frameworks.
 
-This workshop is being offered at [RailsConf 2015](http://railsconf.com/).
+This workshop is being offered at [Iowa Code Camp](http://iowacodecamp.com/).
 
 ## Why are we here?
 
@@ -18,13 +18,13 @@ Our goal is to build the infrastructure required to run a [basic Rails applicati
 
 The master branch is where we start.  There are many other branches here that build on one another working toward a working example.
 
-* [master](https://github.com/chef/railsconf2015-chef)
-* [labs/widget_world_ruby](https://github.com/chef/railsconf2015-chef/tree/labs/widget_world_ruby) - a cookbook to install Ruby 2.2.2
-* [labs/widget_world_apache](https://github.com/chef/railsconf2015-chef/tree/labs/widget_world_apache) - a cookbook to install Apache
-* [labs/widget_world_passenger](https://github.com/chef/railsconf2015-chef/tree/labs/widget_world_passenger) - a cookbook for managing Passenger
-* [labs/widget_world_postgres](https://github.com/chef/railsconf2015-chef/tree/labs/widget_world_postgres) - a cookbook for PostgreSQL
-* [labs/widget_world_application](https://github.com/chef/railsconf2015-chef/tree/labs/widget_world_application) - the fully deployed application
-* [labs/foodcritic](https://github.com/chef/railsconf2015-chef/tree/labs/foodcritic) - Fix a foodcritic violation or two
+* [master](https://github.com/smith/iowacodecamp2015-chef)
+* [labs/widget_world_ruby](https://github.com/smith/iowacodecamp2015-chef/tree/labs/widget_world_ruby) - a cookbook to install Ruby 2.2.2
+* [labs/widget_world_apache](https://github.com/smith/iowacodecamp2015-chef/tree/labs/widget_world_apache) - a cookbook to install Apache
+* [labs/widget_world_passenger](https://github.com/smith/iowacodecamp2015-chef/tree/labs/widget_world_passenger) - a cookbook for managing Passenger
+* [labs/widget_world_postgres](https://github.com/smith/iowacodecamp2015-chef/tree/labs/widget_world_postgres) - a cookbook for PostgreSQL
+* [labs/widget_world_application](https://github.com/smith/iowacodecamp2015-chef/tree/labs/widget_world_application) - the fully deployed application
+* [labs/foodcritic](https://github.com/smith/iowacodecamp2015-chef/tree/labs/foodcritic) - Fix a foodcritic violation or two
 
 ## Infrastructure Requirements
 
